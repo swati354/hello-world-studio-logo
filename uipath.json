@@ -1,0 +1,8 @@
+{
+  "clientId": "6d358d59-bed4-4ede-b52b-016b51e472ec",
+  "scope": "Insights OR.Assets OR.Buckets OR.Execution OR.Folders OR.Jobs OR.Queues.Read OR.Tasks OR.Users Insights.RealTimeData PIMS Traces.Api DataFabric.Data.Read DataFabric.Data.Write DataFabric.Schema.Read ConversationalAgents",
+  "orgName": "maestrolab",
+  "tenantName": "DefaultTenant",
+  "baseUrl": "https://staging.api.uipath.com",
+  "redirectUri": "http://localhost:3000"
+}
