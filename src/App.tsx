@@ -1,4 +1,5 @@
 import { AuthProvider, useAuth } from '@/hooks/useAuth';
+import logoUrl from '@/assets/logo.png';
 
 function SignInGate() {
   const { isAuthenticated, isLoading, login, error } = useAuth();
@@ -30,6 +31,11 @@ function SignInGate() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
       <div className="rounded-2xl bg-white px-12 py-10 text-center shadow-lg">
+        <img
+          src={logoUrl}
+          alt="Logo"
+          className="mx-auto mb-6 h-32 w-32 rounded-xl object-contain"
+        />
         <h1 className="text-4xl font-bold tracking-tight text-slate-900">Hello, World!</h1>
         <p className="mt-3 text-base text-slate-500">Welcome to your UiPath Coded Web App.</p>
       </div>
